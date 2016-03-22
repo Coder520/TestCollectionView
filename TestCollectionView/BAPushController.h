@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BAPushController.h
 //  TestCollectionView
 //
 //  Created by Borago on 16/3/17.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface BAPushController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+#pragma mark 传递标题参数
+@property (nonatomic, copy) NSString *navTitle;
 
 @end
-

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		F80115961C9A46BF0001499E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F80115951C9A46BF0001499E /* main.m */; };
 		F80115991C9A46BF0001499E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F80115981C9A46BF0001499E /* AppDelegate.m */; };
-		F801159C1C9A46BF0001499E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F801159B1C9A46BF0001499E /* ViewController.m */; };
-		F801159F1C9A46BF0001499E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F801159D1C9A46BF0001499E /* Main.storyboard */; };
+		F801159C1C9A46BF0001499E /* BAMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = F801159B1C9A46BF0001499E /* BAMainController.m */; };
 		F80115A11C9A46BF0001499E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80115A01C9A46BF0001499E /* Assets.xcassets */; };
-		F80115A41C9A46BF0001499E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80115A21C9A46BF0001499E /* LaunchScreen.storyboard */; };
 		F80115AF1C9A46BF0001499E /* TestCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F80115AE1C9A46BF0001499E /* TestCollectionViewTests.m */; };
 		F80115BA1C9A46BF0001499E /* TestCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F80115B91C9A46BF0001499E /* TestCollectionViewUITests.m */; };
+		F814E14F1C9A77E300DCEFC3 /* BACustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F814E14E1C9A77E300DCEFC3 /* BACustomCell.m */; };
+		F814E1521C9A79C900DCEFC3 /* BAFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F814E1511C9A79C900DCEFC3 /* BAFlowLayout.m */; };
+		F814E1551C9A7A8900DCEFC3 /* BAPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = F814E1541C9A7A8900DCEFC3 /* BAPushController.m */; };
+		F8B9C1A31C9FC0700001FDAC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B9C1A21C9FC0700001FDAC /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +41,9 @@
 		F80115951C9A46BF0001499E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F80115971C9A46BF0001499E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F80115981C9A46BF0001499E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F801159A1C9A46BF0001499E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F801159B1C9A46BF0001499E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F801159E1C9A46BF0001499E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F801159A1C9A46BF0001499E /* BAMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMainController.h; sourceTree = "<group>"; };
+		F801159B1C9A46BF0001499E /* BAMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMainController.m; sourceTree = "<group>"; };
 		F80115A01C9A46BF0001499E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F80115A31C9A46BF0001499E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F80115A51C9A46BF0001499E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F80115AA1C9A46BF0001499E /* TestCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80115AE1C9A46BF0001499E /* TestCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewTests.m; sourceTree = "<group>"; };
@@ -51,6 +51,16 @@
 		F80115B51C9A46BF0001499E /* TestCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80115B91C9A46BF0001499E /* TestCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewUITests.m; sourceTree = "<group>"; };
 		F80115BB1C9A46BF0001499E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80115CB1C9A47580001499E /* BACommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACommon.h; sourceTree = "<group>"; };
+		F80115CC1C9A48470001499E /* BAConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAConfig.h; sourceTree = "<group>"; };
+		F80115CD1C9A49B60001499E /* BAConfig.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAConfig.pch; sourceTree = "<group>"; };
+		F814E14D1C9A77E300DCEFC3 /* BACustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACustomCell.h; sourceTree = "<group>"; };
+		F814E14E1C9A77E300DCEFC3 /* BACustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACustomCell.m; sourceTree = "<group>"; };
+		F814E1501C9A79C900DCEFC3 /* BAFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAFlowLayout.h; sourceTree = "<group>"; };
+		F814E1511C9A79C900DCEFC3 /* BAFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAFlowLayout.m; sourceTree = "<group>"; };
+		F814E1531C9A7A8900DCEFC3 /* BAPushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPushController.h; sourceTree = "<group>"; };
+		F814E1541C9A7A8900DCEFC3 /* BAPushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPushController.m; sourceTree = "<group>"; };
+		F8B9C1A21C9FC0700001FDAC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +111,10 @@
 		F80115931C9A46BF0001499E /* TestCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				F80115971C9A46BF0001499E /* AppDelegate.h */,
-				F80115981C9A46BF0001499E /* AppDelegate.m */,
-				F801159A1C9A46BF0001499E /* ViewController.h */,
-				F801159B1C9A46BF0001499E /* ViewController.m */,
-				F801159D1C9A46BF0001499E /* Main.storyboard */,
-				F80115A01C9A46BF0001499E /* Assets.xcassets */,
-				F80115A21C9A46BF0001499E /* LaunchScreen.storyboard */,
-				F80115A51C9A46BF0001499E /* Info.plist */,
+				F814E14C1C9A779000DCEFC3 /* View */,
+				F80115C91C9A47090001499E /* Macro */,
+				F80115C81C9A46EB0001499E /* Main */,
+				F80115C71C9A46D40001499E /* Other */,
 				F80115941C9A46BF0001499E /* Supporting Files */,
 			);
 			path = TestCollectionView;
@@ -117,7 +123,9 @@
 		F80115941C9A46BF0001499E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F80115951C9A46BF0001499E /* main.m */,
+				F8B9C19E1C9FBFBC0001FDAC /* Images */,
+				F80115A01C9A46BF0001499E /* Assets.xcassets */,
+				F80115A51C9A46BF0001499E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +146,56 @@
 				F80115BB1C9A46BF0001499E /* Info.plist */,
 			);
 			path = TestCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		F80115C71C9A46D40001499E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F80115951C9A46BF0001499E /* main.m */,
+				F80115971C9A46BF0001499E /* AppDelegate.h */,
+				F80115981C9A46BF0001499E /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		F80115C81C9A46EB0001499E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F801159A1C9A46BF0001499E /* BAMainController.h */,
+				F801159B1C9A46BF0001499E /* BAMainController.m */,
+				F814E1531C9A7A8900DCEFC3 /* BAPushController.h */,
+				F814E1541C9A7A8900DCEFC3 /* BAPushController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F80115C91C9A47090001499E /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				F80115CB1C9A47580001499E /* BACommon.h */,
+				F80115CC1C9A48470001499E /* BAConfig.h */,
+				F80115CD1C9A49B60001499E /* BAConfig.pch */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		F814E14C1C9A779000DCEFC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F814E14D1C9A77E300DCEFC3 /* BACustomCell.h */,
+				F814E14E1C9A77E300DCEFC3 /* BACustomCell.m */,
+				F814E1501C9A79C900DCEFC3 /* BAFlowLayout.h */,
+				F814E1511C9A79C900DCEFC3 /* BAFlowLayout.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F8B9C19E1C9FBFBC0001FDAC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F8B9C1A21C9FC0700001FDAC /* 1.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +301,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80115A41C9A46BF0001499E /* LaunchScreen.storyboard in Resources */,
 				F80115A11C9A46BF0001499E /* Assets.xcassets in Resources */,
-				F801159F1C9A46BF0001499E /* Main.storyboard in Resources */,
+				F8B9C1A31C9FC0700001FDAC /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +327,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F801159C1C9A46BF0001499E /* ViewController.m in Sources */,
+				F801159C1C9A46BF0001499E /* BAMainController.m in Sources */,
 				F80115991C9A46BF0001499E /* AppDelegate.m in Sources */,
+				F814E1551C9A7A8900DCEFC3 /* BAPushController.m in Sources */,
+				F814E14F1C9A77E300DCEFC3 /* BACustomCell.m in Sources */,
+				F814E1521C9A79C900DCEFC3 /* BAFlowLayout.m in Sources */,
 				F80115961C9A46BF0001499E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,25 +366,6 @@
 			targetProxy = F80115B61C9A46BF0001499E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F801159D1C9A46BF0001499E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F801159E1C9A46BF0001499E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F80115A21C9A46BF0001499E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F80115A31C9A46BF0001499E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F80115BC1C9A46BF0001499E /* Debug */ = {
@@ -411,6 +452,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/TestCollectionView/TestCollectionView/BAConfig.pch;
 				INFOPLIST_FILE = TestCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jintoushou.TestCollectionView;
@@ -422,6 +466,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/TestCollectionView/TestCollectionView/BAConfig.pch;
 				INFOPLIST_FILE = TestCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jintoushou.TestCollectionView;
@@ -496,6 +543,7 @@
 				F80115C01C9A46BF0001499E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F80115C11C9A46BF0001499E /* Build configuration list for PBXNativeTarget "TestCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +552,7 @@
 				F80115C31C9A46BF0001499E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F80115C41C9A46BF0001499E /* Build configuration list for PBXNativeTarget "TestCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +561,7 @@
 				F80115C61C9A46BF0001499E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
